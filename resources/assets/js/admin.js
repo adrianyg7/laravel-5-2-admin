@@ -1,0 +1,12 @@
+window.$ = window.jQuery = require('jquery')
+require('bootstrap-sass')
+require('fastclick')
+require('admin-lte')
+require('icheck')
+require('datatables')
+require('datatables-bootstrap')
+require('sweetalert')
+window.toastr = require('toastr')
+require('select2')
+
+window.Helpers = require('./helpers')

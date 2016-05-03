@@ -1,0 +1,27 @@
+<routes>
+
+    <route name="admin.dashboard" params="" icon="fa fa-dashboard" label="Inicio">
+
+        <route name="" params="" icon="fa fa-unlock" label="Accesso">
+
+            <route name="admin.users.index" params="" icon="fa fa-user" label="Usuarios">
+                <route name="admin.users.create" params="" icon="fa fa-plus" label="Crear"></route>
+                <route name="admin.users.show" params="" icon="fa fa-eye" label="Ver"></route>
+                <route name="admin.users.edit" params="" icon="fa fa-pencil" label="Editar"></route>
+            </route>
+
+            <route name="admin.roles.index" params="" icon="fa fa-users" label="Roles">
+                <route name="admin.roles.create" params="" icon="fa fa-plus" label="Crear"></route>
+                <route name="admin.roles.edit" params="" icon="fa fa-pencil" label="Editar"></route>
+            </route>
+
+            <route name="admin.permissions.index" params="" icon="fa fa-key" label="Permisos">
+                <route name="admin.permissions.create" params="" icon="fa fa-plus" label="Crear"></route>
+                <route name="admin.permissions.edit" params="" icon="fa fa-pencil" label="Editar"></route>
+            </route>
+
+        </route>
+
+    </route>
+    
+</routes>
